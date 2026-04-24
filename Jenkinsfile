@@ -1,6 +1,9 @@
 pipeline
 {
-    agent any
+    agent
+    {
+        label 'in-node1-linux'
+    }
 
     parameters
     {
